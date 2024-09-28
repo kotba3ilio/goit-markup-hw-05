@@ -539,21 +539,23 @@
             ></textarea>
           </div>
           <div class="modal_checkbox_wrapper">
-            <label class="modal_label modal_label_checkbox">
-              <input
-                class="modal_input_checkbox visually-hidden"
-                type="checkbox"
-                id="privacypolicy"
-                name="privacypolicy"
-              />
-              <span class="modal_checkbox_custom">
+            <input
+              class="modal_input_checkbox visually-hidden"
+              type="checkbox"
+              id="user-privacy"
+              name="user-privacy"
+              value="true"
+            />
+            <label class="modal_label_checkbox" for="user-privacy">
+              I accept the terms and conditions of the&nbsp;
+              <span class="modal_checkbox_custom"></span>
                 <svg class="modal_checkbox_custom-icon" width="10" height="10">
                   <use href="./images/icons.svg#icon-checkmark"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the&nbsp;
-              <a href="#">Privacy Policy</a>
+              <span class="modal_label_checkbox_">Privacy Policy<span>
             </label>
+            
           </div>
           <button type="submit" class="submit_form">Send</button>
         </form>

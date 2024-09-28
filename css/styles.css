@@ -613,9 +613,10 @@ input {
 }
 
 .modal_label_checkbox {
-  flex-direction: row;
-  color: #757575;
-  line-height: 16px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
 }
 
 .modal_label_checkbox>a {
