@@ -394,16 +394,17 @@ button:hover {
   background-color: #31d0aa;
 }
 
-.form {
+.subscribe_form {
+  margin-top: 16px;
   display: flex;
-  justify-content: baseline;
-  align-items: end;
 }
 
-.form_label {
-  display: flex;
-  flex-direction: column;
-  margin-right: 24px;
+.subscribe_title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
 input {
@@ -417,6 +418,7 @@ input {
 
 .subscribe_input {
   width: 264px;
+  height: 40px;
   margin-top: 16px;
   border: 1px solid #ffffff;
   border-radius: 4px;
@@ -436,6 +438,8 @@ input {
   padding: 8px 24px;
   min-width: 165px;
   height: 40px;
+  margin-top: auto;
+  margin-left: 24px;
 }
 
 .send_icon {
