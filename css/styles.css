@@ -534,6 +534,10 @@ input {
   margin-bottom: 8px;
 }
 
+.comment_wrapper {
+  margin-bottom: 16px;
+}
+
 .modal_input_wrapper {
   position: relative;
   margin-bottom: 8px;
@@ -583,6 +587,7 @@ input {
   transform: translateY(-50%);
   left: 16px;
   stroke: #2E2F42;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal_text {
@@ -622,7 +627,6 @@ input {
 }
 
 .modal_checkbox_wrapper {
-  margin-top: 16px;
   margin-bottom: 24px;
 }
 
