@@ -466,6 +466,11 @@ input {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+:root {
+  --main-color: #404bbf;
+  --main-fill: #F4F4FD;
+}
+
 .modal_overlay.is-open {
   opacity: 1;
   pointer-events: auto;
@@ -644,15 +649,18 @@ input {
 }
 
 .modal_input_checkbox:checked+.modal_checkbox_custom {
-  background: #404BBF;
+  background-color: var(--main-color);
   border: none;
-  fill: #F4F4FD;
+  fill: var(--main-fill);
 }
 
 .submit_form {
   display: block;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   margin: 24px auto;
   margin-bottom: 0;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
