@@ -484,7 +484,6 @@ input {
   width: 408px;
   min-height: 584px;
   background-color: #FCFCFC;
-  margin: 80px auto;
   margin-bottom: 0;
   padding: 72px 24px 24px 24px;
   border-radius: 4px;
@@ -561,7 +560,6 @@ input {
 }
 
 .modal_input {
-  margin-top: 4px;
   padding: 8px 8px 8px 38px;
   width: 360px;
   height: 40px;
